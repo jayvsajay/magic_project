@@ -1,5 +1,6 @@
 import './dashboard.scss';
 import React from 'react'
+import { Button } from 'react-bootstrap';
 
 function Dashboard() {
   return (
@@ -9,8 +10,8 @@ function Dashboard() {
         <p className='content'>
         A NEW CATEGORY OF INVESTOR INSIGHTS DERIVED FROM THE VOICE TONE OF EXECUTIVES
         </p>
-        
         </div>
+
         <div className='descriptionbody'>
         <p className='desc'>Where there's transparency, there's truth and we're reading the way. 
             Add additional intelligence for further clarity on tomorrow's volatile market with Hellos' comprehend product suite.
@@ -20,7 +21,11 @@ function Dashboard() {
              <p className='descrption'>
              Set up a 15 minute consultation, on us, and we'll review your equity of choice Click the demo button below to get started.
              </p>
+             <div className='dashboardbtn'>
+             <Button variant="outline-warning" className='dashboardbtn' size='lg'>Get Started</Button>{' '}
              </div>
+             </div>
+
     </div>
   )
 }
