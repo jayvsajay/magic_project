@@ -8,6 +8,7 @@ function Home() {
         <input type='text' placeholder='Search' />
         <button className='buttonIcon'><FaSearch/></button>
         <button>Hello</button>
+        <p>hel</p>
         </div>
     </div>
   )
